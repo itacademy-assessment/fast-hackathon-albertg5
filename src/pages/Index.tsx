@@ -1,7 +1,7 @@
 import Container from '@components/base/Container'
 
 const Index = () => {
-    return <Container>frontpage</Container>
+	return <Container>Frontpage</Container>
 }
 
 export default Index
