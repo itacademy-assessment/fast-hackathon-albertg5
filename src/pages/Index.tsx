@@ -1,7 +1,12 @@
 import Container from '@components/base/Container'
+import Header from '@layouts/Header'
 
 const Index = () => {
-    return <Container>frontpage</Container>
+	return (
+		<div>
+			<Header />
+		</div>
+	)
 }
 
 export default Index
