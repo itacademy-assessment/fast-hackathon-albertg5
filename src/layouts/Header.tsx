@@ -4,7 +4,6 @@ const Header = () => {
     return (
         <header>
             {' '}
-            return (
             <>
                 <div
                     className={`flex bg-[#0d253f] flex-col md:flex-row justify-between items-center p-4 px-16 text-black-300`}
