@@ -1,3 +1,9 @@
+export type RoutesProps = {
+	id: number
+	url: string
+	text: string
+	orderMenu?: number
+}
 export type Form = {
 	labelConfirmPassword?: string
 	labelEmail: string
