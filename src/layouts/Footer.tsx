@@ -1,10 +1,15 @@
+import logo from '/src/assets/images/logo.png'
 export const Footer: React.FC = () => {
     return (
-        <footer className="bg-[#0d253f] text-white py-12">
+        <footer className="bg-[#0d253f] text-white py-8">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div>
-                        <img alt="MovieApp Logo" className="mb-8 w-32" />
+                        <img
+                            alt="MovieApp Logo"
+                            src={logo}
+                            className="mb-8 w-32"
+                        />
                         <button className="bg-transparent border border-white text-white py-2 px-4 rounded">
                             Get Started
                         </button>
